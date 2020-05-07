@@ -1,0 +1,55 @@
+.title {
+    background-color: skyblue;
+    text-align: center;
+    color: white;
+    float: left;
+    width: 150px;
+    height: 800px;
+    margin-right: 12px;
+    padding-top: 10px;
+}
+
+.arrName {
+    /* float: left; */
+    font-size: 30px;
+    font-weight: bold;
+}
+
+span {
+    font-size: 20px;
+}
+
+.arr {
+    font-weight: bold;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+    text-align: left;
+}
+
+.inline {
+    display: inline;
+    padding-right: 20px;
+    /* font-weight: bolder; */
+}
+
+.ab {
+    height: 3px;
+    font-weight: bold;
+}
+
+dl {
+    font-size: 20px;
+}
+
+dt {
+    float: left;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+dd {
+    float: left;
+}
