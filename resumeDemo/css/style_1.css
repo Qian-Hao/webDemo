@@ -1,32 +1,26 @@
-ul {
-    padding: 0;
-    list-style-type: none;
-    text-align: left;
-}
-
-.inline {
-    display: inline;
-    padding-right: 20px;
+.content {
     font-size: 20px;
-    /* font-weight: bolder; */
-}
-
-.ab {
-    margin: 0;
-    padding: 0;
-    height: 3px;
-    font-weight: bold;
 }
 
 .arrName {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
 }
 
-.arr {
+dt {
     font-weight: bold;
+    margin-right: 10px;
 }
 
-span {
-    font-size: 20px;
+dd {
+    margin: 0 0 10px;
+    margin-right: 30px;
+}
+
+.float {
+    float: left;
+}
+
+dl {
+    overflow: auto;
 }
