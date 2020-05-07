@@ -1,0 +1,34 @@
+.box1 {
+    width: 500px;
+    margin: 20px auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.box2 {
+    width: 500px;
+    margin: 20px auto;
+    padding: 50px;
+    border: solid blue 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+img {
+    width: 500px;
+    /* float: left; */
+}
+
+div {
+    float: left;
+    border: 2px;
+    border-style: solid;
+    border-color: red;
+}
+
+p {
+    background-color: blue;
+    word-wrap: break-word;
+}

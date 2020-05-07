@@ -1,0 +1,23 @@
+.main {
+    width: 100%;
+    background: red;
+    overflow: hidden;
+}
+
+.left {
+    background: yellow;
+    float: left;
+    width: calc(100% - 500px);
+}
+
+.middle {
+    background: rosybrown;
+    float: left;
+    width: 500px;
+}
+
+.right {
+    background: green;
+    float: right;
+    width: 500PX;
+}

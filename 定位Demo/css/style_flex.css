@@ -1,0 +1,29 @@
+.main {
+    /* display: -webkit-flex; */
+    display: flex;
+}
+
+.left {
+    background: blue;
+    /* -webkit-flex: 3; */
+    /* flex: 3; */
+    /* width: 200px; */
+    flex: none;
+    width: 500px;
+    /* flex: 1; */
+}
+
+.middle {
+    /* flex: 1; */
+    background: yellow;
+    width: 500px;
+    flex: none;
+}
+
+.right {
+    background: red;
+    /* flex: none; */
+    /* -webkit-flex: 7; */
+    flex: 1;
+    /* width: 200px; */
+}

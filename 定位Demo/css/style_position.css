@@ -1,0 +1,27 @@
+.main {
+    position: relative;
+}
+
+.left {
+    position: absolute;
+    /* right: 300px; */
+    width: 300px;
+    background: blue;
+}
+
+.middle {
+    background: yellow;
+    width: 300px;
+    position: absolute;
+    margin-left: 300px;
+    /* margin-left: 300px; */
+    /* margin-right: 300px; */
+}
+
+.right {
+    background: red;
+    margin-left: 600px;
+    /* position: absolute; */
+    /* width: 300px; */
+    /* right: 0; */
+}
