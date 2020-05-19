@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>IFE ECMAScript</title>
+</head>
+
+<body>
+</body>
+<!-- <input id="first-number" type="number" value="5" placeholder="第一个数字">
+    <input id="second-number" type="number" value="3" placeholder="第二个数字">
+    <button id="add-btn">加</button>
+    <button id="minus-btn">减</button>
+    <button id="times-btn">乘</button>
+    <button id="divide-btn">除</button>
+    <p id="result">运算结果</p> -->
+<script>
+    // document.getElementById("add-btn").onclick = function() {
+    //         document.getElementById("result").innerHTML = Number(document.getElementById("first-number").value) + Number(document.getElementById("second-number").value);
+    //     }
+    // function $(id) {
+    //     return document.getElementById(id);
+    // }
+
+    // function Calculate(func) {
+    //     return () =>
+    //         $('result').innerText = ('运算结果:' + func(parseFloat(num1.value), parseFloat(num2.value)))
+    // }
+    // let num1 = $('first-number');
+    // let num2 = $('second-number');
+    // $('add-btn').addEventListener('click', Calculate((a, b) => a + b))
+    // $('minus-btn').addEventListener('click', Calculate((a, b) => a - b))
+    // $('times-btn').addEventListener('click', Calculate((a, b) => a * b))
+    // $('divide-btn').addEventListener('click', Calculate((a, b) => a / b))
+    // var ans = new Array();
+    // for (var i = 1; i <= 100; ++i) {
+    //     if (i % 3 == 0 || (i - 3) % 10 == 0 || Math.trunc(i / 10) == 3) {
+    //         ans.push("PA");
+    //     } else {
+    //         ans.push(i);
+    //     }
+    // }
+
+    document.write("<h1>99乘法表</h1>");
+    document.write("<br>");
+    document.write("<table>")
+    for (var i = 1; i <= 9; ++i) {
+        document.write("<tr>");
+        for (var j = 1; j <= i; ++j) {
+            document.write("<td>i + " * " + j + " = " + i * j</td>");
+        }
+        document.write("</tr>");
+    }
+    document.write("</table>");
+</script>
+
+
+</html>

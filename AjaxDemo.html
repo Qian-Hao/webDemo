@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Ajax 发送 get 请求</h1>
+    <input type="button" value="发送get_ajax请求" id='btnAjax'>
+
+    <script type="text/javascript">
+        //绑定点击事件
+        document.querySelector('#btnAjax').onclick = function() {
+            //(1) 创建异步对象
+            var ajaxObj = new XMLHttpRequest();
+
+            //(2)发送请求的参数。包括：请求的方法、请求的url
+            ajaxObj.open('get', '/ajax/demo_get.php');
+
+            //(3)发送请求
+            ajaxObj.send();
+
+            //(4)注册事件。onreadystatechange事件，状态改变时就会调用。
+            ajaxObj.onreadystatechange = function() {
+                //为保证数据完整返回，一般会判断两个值
+                if (ajaxObj.readyState == 4 && ajaxObj.status == 200) {
+                    console.log('数据返回成功');
+
+                    //(5)在注册的事件中获取返回的内容并修改页面的显示
+                    //数据保存在异步对象的属性中
+                    console.log(ajaxObj.responseText);
+
+                    //修改页面的显示
+                    document.querySelector('h1').innerHTML = ajaxObj.responseText;
+                }
+            }
+        }
+    </script>
